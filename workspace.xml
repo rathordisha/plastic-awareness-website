@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14296c63-708b-4410-94f9-681dca41fb28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marine-life.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocean-impact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/JetBrainsMono-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/JetBrainsSans-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/technologies.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webstorm-icon-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webstorm-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/fact1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/fact2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/fact3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hero-plastic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hero1.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hero2.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/hero3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/marine-hero.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/marine-hero3.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/mrf-facility.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/ocean-impact-large.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/species.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/volodymyr-hryshchenko-LHE9c_va1f8-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2yg7WMO4xZtp0AztfhSESWWxQJ7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/rdrathor/WebstormProjects/plastic-awareness-website/src/main.js",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/js" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14296c63-708b-4410-94f9-681dca41fb28" name="Changes" comment="" />
+      <created>1750244392816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750244392816</updated>
+      <workItem from="1750244393831" duration="8306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

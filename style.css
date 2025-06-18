@@ -1,0 +1,262 @@
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-plastic.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 3px 0;
+}
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#facts .card {
+    height: 100%;
+}
+
+/*caraousel*/
+.hero {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.carousel {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.6); /* Darkens the image for better text visibility */
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    padding: 0;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-content .lead {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.btn-lg {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+}
+
+/* Make carousel indicators more visible */
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+/* In style.css */
+.highlight-form {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(40, 167, 69, 0.3);
+}
+
+/* Ensure smooth scrolling for the whole page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add padding to sections to account for fixed navbar */
+section {
+    scroll-margin-top: 80px; /* Adjust based on your navbar height */
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.card-link:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    transition: box-shadow 0.3s ease;
+}
+
+.card-link:hover .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* MRF Page Specific Styles */
+.mrf-section {
+    border-left: 1px solid #eee;
+    padding-left: 2rem;
+}
+
+@media (max-width: 992px) {
+    .mrf-section {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+}
+
+.process-list li {
+    margin-bottom: 1rem;
+}
+
+.stat-box {
+    transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+}
+
+.tech-list li {
+    margin-bottom: 0.5rem;
+}
+
+.impact-stats {
+    border-left: 4px solid #28a745;
+}
+
+.mrf-stats .stat-box h5 {
+    color: #28a745;
+    font-size: 1.1rem;
+}
+
+.mrf-stats .stat-box p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Marine Life Page Styles */
+.species-section img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.list-group-item {
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Recycling Page Styles */
+.recycling-steps .card {
+    transition: transform 0.3s ease;
+}
+
+.recycling-steps .card:hover {
+    transform: translateY(-5px);
+}
+
+.benefits-section .card {
+    transition: transform 0.3s ease;
+}
+
+.benefits-section .card:hover {
+    transform: translateY(-5px);
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Common Styles */
+.hero-section img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/*//marine- cards - kpi*/
+.gradient-card {
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gradient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.gradient-entanglement {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.gradient-ingestion {
+    background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
+}
+
+.gradient-habitat {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+.gradient-card .card-title {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.gradient-card .card-text {
+    color: rgba(255,255,255,0.9);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}

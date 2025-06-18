@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Plastic Pollution</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Save Our Planet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#facts">Facts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#action">Take Action</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="home" class="hero">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="src/images/hero1.avif" class="d-block w-100" alt="Save Ocean">
+                <div class="carousel-caption">
+                    <div class="hero-content">
+                        <h1>Stop Plastic Pollution</h1>
+                        <p class="lead">Together we can make a difference</p>
+                        <button class="btn btn-primary btn-lg" onclick="showPledge()">Take the Pledge</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/images/hero2.avif" class="d-block w-100" alt="Save Marine Life">
+                <div class="carousel-caption">
+                    <div class="hero-content">
+                        <h1>Protect Marine Life</h1>
+                        <p class="lead">Every action counts</p>
+                        <button class="btn btn-primary btn-lg" onclick="showPledge()">Join The Movement</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="src/images/hero3.jpeg" class="d-block w-100" alt="Recycle">
+                <div class="carousel-caption">
+                    <div class="hero-content">
+                        <h1>Reduce & Recycle</h1>
+                        <p class="lead">Be part of the solution</p>
+                        <button class="btn btn-primary btn-lg" onclick="showPledge()">Take Action Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</header>
+
+
+<!-- Facts Section -->
+<section id="facts" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Plastic Pollution Facts</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="ocean-impact.html" target="_blank" class="card-link">
+                    <div class="card">
+                        <img src="src/images/fact1.jpg" class="card-img-top" alt="Ocean Pollution">
+                        <div class="card-body">
+                            <h5 class="card-title">Ocean Impact</h5>
+                            <p class="card-text">8 million tons of plastic enter our oceans every year</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="marine-life.html" target="_blank" class="card-link">
+                    <div class="card">
+                        <img src="src/images/fact2.jpg" class="card-img-top" alt="Marine Life">
+                        <div class="card-body">
+                            <h5 class="card-title">Marine Life</h5>
+                            <p class="card-text">100,000 marine animals die from plastic entanglement annually</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="recycling.html" target="_blank" class="card-link">
+                    <div class="card">
+                        <img src="src/images/fact3.jpeg" class="card-img-top" alt="Recycling">
+                        <div class="card-body">
+                            <h5 class="card-title">Recycling</h5>
+                            <p class="card-text">Only 9% of plastic waste ever produced has been recycled</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Take Action Section -->
+<section id="action" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Take Action Now</h2>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="pledgeForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100">I Pledge to Reduce Plastic Use</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Save Our Planet. Make Earth Plastic Free.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="src/js/script.js"></script>
+</body>
+</html>
+<!--Photo by <a href="https://unsplash.com/@naja_bertolt_jensen?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Naja Bertolt Jensen</a> on <a href="https://unsplash.com/photos/school-of-fish-in-water-BJUoZu0mpt0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+     Photo by <a href="https://unsplash.com/@lunarts?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Volodymyr Hryshchenko</a> on <a href="https://unsplash.com/photos/white-spoon-LHE9c_va1f8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+     Photo by <a href="https://unsplash.com/@downrightpunch?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marc Newberry</a> on <a href="https://unsplash.com/photos/multicolored-abstract-painting-9vcEn3BJyy8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+       Photo by <a href="https://unsplash.com/@innay1002?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">innay</a> on <a href="https://unsplash.com/photos/person-in-white-gloves-holding-red-tomato-fruit-40o8lXsMlcU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+       -->
